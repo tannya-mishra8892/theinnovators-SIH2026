@@ -12,7 +12,7 @@ from app.routers import (
     zones,
     routes,
     location,
-    voice,
+    intelligence,
 )
 
 from app.config import USE_DEMO_WEATHER, USE_DEMO_LLM
@@ -95,18 +95,20 @@ app.include_router(
     tags=["routes"],
 )
 
-# Reverse Geocoding / Location
 app.include_router(
     location.router,
     prefix="/api",
     tags=["location"],
 )
 
-# Voice Command
+# --------------------------------------------------
+# INTELLIGENCE
+# --------------------------------------------------
+
 app.include_router(
-    voice.router,
+    intelligence.router,
     prefix="/api",
-    tags=["voice"],
+    tags=["intelligence"],
 )
 
 

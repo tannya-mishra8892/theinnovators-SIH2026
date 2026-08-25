@@ -14,18 +14,35 @@
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
 }
 
 body {
   background:
-    radial-gradient(circle at 15% 0%, rgba(45, 212, 191, 0.06), transparent 45%),
-    radial-gradient(circle at 85% 100%, rgba(245, 166, 35, 0.05), transparent 40%),
-    var(--bg-void);
+    linear-gradient(rgba(7, 11, 20, 0.78),
+      rgba(7, 11, 20, 0.88)),
+    radial-gradient(circle at 15% 0%,
+      rgba(45, 212, 191, 0.06),
+      transparent 45%),
+    radial-gradient(circle at 85% 100%,
+      rgba(245, 166, 35, 0.05),
+      transparent 40%),
+    url("/weather1.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  background-color: var(--bg-void);
   color: var(--text-primary);
   font-family: var(--font-display);
   -webkit-font-smoothing: antialiased;
@@ -36,21 +53,39 @@ button {
   cursor: pointer;
 }
 
-::-webkit-scrollbar { width: 8px; height: 8px; }
-::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
-::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
 
-.mono { font-family: var(--font-mono); }
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 4px;
+}
 
-a { color: var(--accent-cyan); }
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+a {
+  color: var(--accent-cyan);
+}
 
 /* Leaflet dark tuning */
 .leaflet-container {
   background: #0a0f1a !important;
 }
+
 .leaflet-control-attribution {
-  background: rgba(7,11,20,0.7) !important;
+  background: rgba(7, 11, 20, 0.7) !important;
   color: var(--text-muted) !important;
   font-size: 10px !important;
 }
-.leaflet-control-attribution a { color: var(--accent-cyan) !important; }
+
+.leaflet-control-attribution a {
+  color: var(--accent-cyan) !important;
+}

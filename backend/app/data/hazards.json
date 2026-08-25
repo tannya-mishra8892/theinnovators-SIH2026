@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ab6725e5",
+    "lat": 28.9845,
+    "lon": 77.7064,
+    "category": "waterlogging",
+    "description": "road submerged",
+    "reporter_id": "anonymous",
+    "timestamp": "2026-08-24T10:32:19.221425Z",
+    "status": "REPORTED"
+  },
+  {
+    "id": "405f8ad3",
+    "lat": 28.9845,
+    "lon": 77.7064,
+    "category": "landslide",
+    "description": "",
+    "reporter_id": "anonymous",
+    "timestamp": "2026-08-24T19:17:29.656287Z",
+    "status": "REPORTED"
+  },
+  {
+    "id": "44e15c00",
+    "lat": 28.9845,
+    "lon": 77.7064,
+    "category": "electric_wire",
+    "description": "heavy thundering. ",
+    "reporter_id": "anonymous",
+    "timestamp": "2026-08-24T19:18:12.224111Z",
+    "status": "REPORTED"
+  },
+  {
+    "id": "550099ee",
+    "lat": 28.299706897740787,
+    "lon": 79.4057765980975,
+    "category": "waterlogging",
+    "description": "",
+    "reporter_id": "anonymous",
+    "timestamp": "2026-08-25T04:10:39.469457Z",
+    "status": "REPORTED"
+  }
+]

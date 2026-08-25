@@ -1,0 +1,42 @@
+[
+  {
+    "id": "flood_dos_donts",
+    "topic": "flood",
+    "text": "During flooding: move to higher ground immediately. Avoid walking or driving through moving water — 15cm of fast water can knock over an adult, 30cm can float a car. Stay away from downed power lines and standing water near them. Do not drink flood water. Keep mobile phone charged and follow official evacuation orders. After the flood, avoid entering damaged buildings until declared safe."
+  },
+  {
+    "id": "cyclone_dos_donts",
+    "topic": "cyclone",
+    "text": "Before a cyclone: secure loose outdoor objects, keep an emergency kit (torch, radio, water, dry food, medicines, documents in a waterproof bag) ready, and identify the nearest official shelter. During the cyclone: stay indoors, away from windows, in the strongest part of the building. Do not go out during the 'eye' of the storm — winds return suddenly from the opposite direction. Follow IMD and local disaster authority warnings."
+  },
+  {
+    "id": "landslide_dos_donts",
+    "topic": "landslide",
+    "text": "Warning signs of a landslide include new cracks in walls or ground, tilting trees or poles, and sudden increase in creek water turbidity. If you notice these signs, move away and uphill immediately. Avoid river valleys and unstable slopes during and after heavy rain. Report cracks or bulging ground to local authorities."
+  },
+  {
+    "id": "lightning_dos_donts",
+    "topic": "lightning",
+    "text": "If thunder is heard, lightning is close enough to strike. Move indoors or into a hard-topped vehicle immediately. Avoid open fields, isolated trees, metal fences, and water bodies. Stay indoors for at least 30 minutes after the last thunderclap. Unplug sensitive electronics."
+  },
+  {
+    "id": "waterlogging_travel",
+    "topic": "waterlogging",
+    "text": "Before travelling during heavy rain, check for waterlogging-prone stretches on your route — typically underpasses, low-lying roads near drains, and areas with a history of flooding. Avoid two-wheelers on waterlogged roads since stalled engines and submerged potholes are common hazards. Keep extra travel time buffer during heavy rainfall alerts."
+  },
+  {
+    "id": "emergency_helplines_india",
+    "topic": "helplines",
+    "text": "National Emergency Number: 112. NDMA (National Disaster Management Authority) helpline: 1078. Fire: 101. Ambulance: 102/108. Women helpline: 1091. Always verify the current local disaster helpline number for your specific state/district as it may vary."
+  },
+  {
+    "id": "rainfall_terms",
+    "topic": "terminology",
+    "text": "IMD rainfall classification (24-hour totals): Light rain is 2.5-15.5mm, Moderate rain is 15.6-64.4mm, Heavy rain is 64.5-115.5mm, Very Heavy rain is 115.6-204.4mm, and Extremely Heavy rain is above 204.4mm. These thresholds are used to classify warning severity."
+  },
+  {
+    "id": "risk_score_explainer",
+    "topic": "risk_score",
+    "text": "The WeatherGPT Personal Weather Safety Score is a transparent, rule-based weighted score (0-100) combining rainfall intensity, forecast inundation risk, lightning probability, wind speed, and travel-time exposure. It is NOT a trained machine-learning prediction — it is a documented weighted formula so every factor is explainable to the user."
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "flood": {
+    "title": "Flood Emergency Checklist",
+    "dos": [
+      "Move to higher ground / upper floors immediately",
+      "Keep emergency kit ready (torch, water, dry food, medicines, documents)",
+      "Keep mobile phone charged and follow official alerts",
+      "Turn off electricity mains if water is entering the building"
+    ],
+    "donts": [
+      "Do not walk or drive through moving flood water",
+      "Do not touch downed power lines or standing water near them",
+      "Do not drink flood water",
+      "Do not re-enter flooded buildings until declared safe"
+    ],
+    "helplines": ["National Emergency: 112", "NDMA: 1078", "Ambulance: 102 / 108"]
+  },
+  "cyclone": {
+    "title": "Cyclone Emergency Checklist",
+    "dos": [
+      "Secure loose outdoor objects (furniture, hoardings, antennas)",
+      "Stay indoors, away from windows, in the strongest part of the building",
+      "Keep an emergency kit and identify nearest official shelter",
+      "Follow IMD and local disaster authority warnings closely"
+    ],
+    "donts": [
+      "Do not go outside during the 'eye' of the storm — winds return suddenly",
+      "Do not travel unless officially cleared",
+      "Do not ignore evacuation orders"
+    ],
+    "helplines": ["National Emergency: 112", "NDMA: 1078", "Fire: 101"]
+  },
+  "landslide": {
+    "title": "Landslide Emergency Checklist",
+    "dos": [
+      "Move away and uphill immediately if you notice cracks, tilting trees, or ground bulging",
+      "Report warning signs to local authorities",
+      "Avoid river valleys and unstable slopes during/after heavy rain"
+    ],
+    "donts": [
+      "Do not stay in low-lying areas near slopes during continuous heavy rain",
+      "Do not ignore new cracks in walls or ground"
+    ],
+    "helplines": ["National Emergency: 112", "NDMA: 1078"]
+  },
+  "lightning": {
+    "title": "Lightning Emergency Checklist",
+    "dos": [
+      "Move indoors or into a hard-topped vehicle immediately when thunder is heard",
+      "Stay indoors for at least 30 minutes after the last thunderclap",
+      "Unplug sensitive electronics"
+    ],
+    "donts": [
+      "Do not stay in open fields, near isolated trees, metal fences, or water bodies",
+      "Do not use corded phones or plumbing during a lightning storm"
+    ],
+    "helplines": ["National Emergency: 112", "Ambulance: 102 / 108"]
+  }
+}

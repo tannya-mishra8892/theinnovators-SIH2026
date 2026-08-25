@@ -1,0 +1,41 @@
+{
+  "_label": "PROTOTYPE DATA — representative flood-prone zones, not derived from official DEM/drainage survey",
+  "zones": [
+    {
+      "id": "zone_1",
+      "name": "Old City Underpass Area",
+      "lat": 28.9845,
+      "lon": 77.7064,
+      "radius_km": 1.2,
+      "base_risk": "high",
+      "note": "Historically low-lying, prone to waterlogging in moderate+ rainfall"
+    },
+    {
+      "id": "zone_2",
+      "name": "Riverside Colony",
+      "lat": 28.9700,
+      "lon": 77.7200,
+      "radius_km": 1.5,
+      "base_risk": "high",
+      "note": "Near river embankment, drainage overflow risk"
+    },
+    {
+      "id": "zone_3",
+      "name": "Industrial Drain Belt",
+      "lat": 28.9920,
+      "lon": 77.6950,
+      "radius_km": 1.0,
+      "base_risk": "moderate",
+      "note": "Partial drainage capacity, moderate historical waterlogging"
+    },
+    {
+      "id": "zone_4",
+      "name": "New Bypass Road",
+      "lat": 28.9600,
+      "lon": 77.7100,
+      "radius_km": 0.8,
+      "base_risk": "low",
+      "note": "Elevated road, generally low waterlogging history"
+    }
+  ]
+}
